@@ -1,0 +1,9 @@
+[package]
+name = "hello_client"
+version = "0.1.0"
+edition = "2018"
+
+[dependencies]
+proto_hello_world = {path = "./../proto_hello_world"}
+pb-jelly = "0.0.7"
+wasmer = "2.0"

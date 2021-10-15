@@ -1,0 +1,7 @@
+[workspace]
+members = [
+	"hello",
+	"hello_client",
+	"proto_generator",
+	#"proto_hello_definition"
+]

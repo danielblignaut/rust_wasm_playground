@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+message HelloInput {
+	string name = 1;
+}
+
+enum Status {
+	OK=0;
+	NOT_OK=1;
+}
+
+message HelloOutput {
+	string name = 1;
+	Status status = 2;
+}
